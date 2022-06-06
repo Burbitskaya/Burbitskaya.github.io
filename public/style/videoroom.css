@@ -134,7 +134,7 @@ body {
     max-width: 20%;
     margin-left: 5px;
     margin-bottom: 5px;
-    background-color: #cfe2ff;
+    background-color: beige;
 }
 
 .header-container {
@@ -170,6 +170,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: darkgray;
 }
 
 .messages {
