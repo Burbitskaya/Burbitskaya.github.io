@@ -228,7 +228,6 @@ async function demonstrateScreen() {
 
 function copyIdToClipboard() {
     let tmpInput = document.createElement("input");
-    // tmpInput.style.display = 'none';
     document.body.appendChild(tmpInput);
     tmpInput.setAttribute("id", "dummy_id");
     document.getElementById("dummy_id").value = roomId;
@@ -288,7 +287,6 @@ function sendMessage() {
 
 
     const dateStr = `${hour}:${minute}`;
-    // let dateStr = '19:55';
     const timeEl = $('<div></div>')
         .addClass('time-container')
         .append(
@@ -326,5 +324,4 @@ function sendMessage() {
 
     $('#chat-input').val('');
     $('.messages').append(messageEl)
-
 }
